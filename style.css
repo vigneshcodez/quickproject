@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primaryColor:red;
+  --secondaryLight:#304D30;
+  --lightColor:#B6C4B6;
+  --extraLight:#EEF0E5;
+}
+
+.maindiv{
+  position: relative;
+}
+
+.tw{
+  color: white !important;
+}
+
+.bg-customz{
+  background-color: var(--primaryColor);
+  color: var(--extraLight) !important;
+}
+.carouselExampleControlsNoTouching{
+  width: 50vw;
+  position: relative !important ;
+  top: 10%;
+  left: 100px;
+  
+}
+
+.cheight{
+  height: 50vh;
+}
+
+.card-img-top{
+height: 200px;
+}
+
+.footeer{
+  border-top: 2px solid red;
+}
+
+.bgs{
+  background-color: #B6C4B6;
+}
